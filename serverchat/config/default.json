@@ -6,14 +6,14 @@
   "server": {
     "host": "127.0.0.1",
     "servername": "http://localhost/chats",
-    "port": 2626,
+    "port": 3636,
     "logLevel": "TRACE",
     "requestTimeout": "30s",
     "prefixhost": "http",
     "apikey": "88067c93f3cfd3cd76454c8d17a3df36",
     "clientid": "a81cf81f38d633c3500c5fe967545146",
     "ssl": "",
-    "socketPort": 2222
+    "socketPort": 3333
   },
   "dbInfo": {
     "server": "127.0.0.1",

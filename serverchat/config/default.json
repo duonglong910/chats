@@ -1,0 +1,44 @@
+{
+  "session": {
+    "timeout": 18000,
+    "secret": "session.jdmath.vn"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "servername": "http://localhost/chats",
+    "port": 2626,
+    "logLevel": "TRACE",
+    "requestTimeout": "30s",
+    "prefixhost": "http",
+    "apikey": "88067c93f3cfd3cd76454c8d17a3df36",
+    "clientid": "a81cf81f38d633c3500c5fe967545146",
+    "ssl": "",
+    "socketPort": 2222
+  },
+  "dbInfo": {
+    "server": "127.0.0.1",
+    "port": 27017,
+    "db": "soocviet"
+  },
+  "cacheInfo": {
+    "server": "127.0.0.1",
+    "port": 6379,
+    "cachePrefix": "soocviet",
+    "usertimecache": 32400,
+    "apptimecache": 32400,
+    "timefeeds": 32400
+  },
+  "mail": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "ssl": true,
+    "from": "duonglong910@gmail.com",
+    "pass": "",
+    "authorize": false
+  },
+  "security": {
+    "secretKeyLength": 24,
+    "systemPrivateKey": "JMath",
+    "defaultPassword": "123456789"
+  }
+}

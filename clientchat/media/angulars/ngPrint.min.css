@@ -1,0 +1,68 @@
+﻿@media screen {
+    #printSection {
+        display: none;
+    }
+}
+
+@media print {
+    body * {
+        display: none;
+    }
+
+    #printSection, #printSection * {
+        display: inline;
+    }
+
+    #printSection {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    table {
+        page-break-inside: auto;
+        border-spacing: 0px;
+        display: table;
+    }
+
+    td {
+        border: 1px solid lightgray;
+    }
+
+    tr {
+        page-break-inside: auto;
+    }
+
+    .table-printer {
+        width: 100%;
+        margin: 0px;
+        border-collapse: collapse;
+         page-break-inside: auto;
+        border-spacing: 0px;
+        display: table;
+    }
+
+        .table-printer thead tr th {
+            background: #f0f0ee;
+            border: 1px solid #e0e0e0;
+            padding: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+        .table-printer tbody tr{
+             page-break-inside: auto;
+        }
+        .table-printer tbody tr td {
+            border: 1px solid #e0e0e0;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        .table-printer tbody tr:nth-child(even) {
+            background: #f8f8f8;
+        }
+
+        .table-printer tbody tr:nth-child(odd) {
+            background: #FFF;
+        }
+}

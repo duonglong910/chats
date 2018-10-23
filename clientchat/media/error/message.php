@@ -1,0 +1,1 @@
+<div class="jdcart-message"><?php echo JText($msg);?></div>

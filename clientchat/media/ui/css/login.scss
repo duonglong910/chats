@@ -1,0 +1,155 @@
+﻿@import '../../media/vars/_mixin';
+@import '../../media/vars/_var';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+body {
+    font-size: 12.5px;
+    font-family: $fontfamily;
+}
+
+
+.color-red {
+    color: red;
+}
+
+.color-redb {
+    color: #810303;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-warning {
+    color: #fa5f05;
+}
+
+.color-default {
+    color: #9a9a9a;
+}
+
+.pull-center {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.btn-default {
+    border: 1px solid #ccc;
+}
+
+.form-control-input, .form-control-select, .form-control-sm {
+    width: 100%;
+    display: inline-block;
+    height: 27px;
+    padding: 6px 12px;
+    position: relative;
+    font-size: 12px;
+    line-height: 22px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    @include border-radius(4px);
+    @include box-shadow1(inset 0 1px 1px rgba(0,0,0,.075));
+    @include transition( border-color ease-in-out .15s -webkit-box-shadow ease-in-out .15s);
+}
+
+.page-views-login {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.page-content-body-form {
+    border: 1px solid #ddd;
+}
+
+.tool-padding-10 {
+    padding: 10px !important;
+}
+
+.input-group-date {
+    position: relative;
+
+    input {
+        z-index: 99;
+        background: transparent;
+    }
+
+    .input-group-icon-date {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+}
+
+.padding-25 {
+    padding: 25px;
+}
+
+.page-form-login {
+    width: 360px;
+    margin: 15% auto;
+    background: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+
+    .form-page {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 8px 15px;
+        background: #fff;
+        color: #333;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .f-row {
+        padding: 10px 0px;
+        margin: 0px auto;
+        width: 80%;
+
+        input {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            @include border-radius(4px);
+            @include box-shadow1(inset 0 1px 1px rgba(0,0,0,.075));
+            @include transition1(border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s);
+        }
+    }
+
+    .f-button {
+        padding: 5px 15px;
+        border-radius: 3px;
+    }
+}
+
+@import '../../../media/vars/_loader';

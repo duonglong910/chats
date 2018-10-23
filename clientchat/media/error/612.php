@@ -1,0 +1,1 @@
+<div class="jdcart-message jdcart-eval"><?php echo $msg;?></div>

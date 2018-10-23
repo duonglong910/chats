@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /api/
+Disallow: /applications/
+Disallow: /includes/
+Disallow: /languages/
+Disallow: /libraries/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /templates/
+Disallow: /data/
+Disallow: /images/
+Disallow: /captcha/
+Disallow: /manager/
+Disallow: /upload/
